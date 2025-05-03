@@ -1,6 +1,8 @@
+*{
+  color: black;
+}
 html {
-  background-color: #e4e9fd;
-  background-image: -webkit-linear-gradient(65deg, #AD49E1 50%, #f7f9cc 50%);
+  background-color: #AD49E1;
   min-height: 1000px;
   font-family: "helvetica neue";
 }
@@ -28,8 +30,11 @@ h1 {
 }
 
 #heading {
-  background-color: #a683e3;
+  background-color: #f7f9cc;
   text-align: center;
+}
+#heading h1{
+  color: rgb(0, 0, 0);
 }
 form.edit {
   display: flex;
